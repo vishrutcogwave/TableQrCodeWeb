@@ -1,0 +1,102 @@
+Few changes again on bill id etc. 
+
+Instead of paymentStatus.orderId the unique bill Id should be POS bill number. After successful postbill or  submitOrderfastfoodbill API call, make a GET call to /api/kot/getbillnouseorderid where for parameter "OrderId" pass the merchantOrderID. The response will be as below:
+
+{
+  "orderId": "OMO2511121604218032636933",
+  "MerchantOrderId": "ORID12112025160421",
+  "POSBillno": "21345"
+}
+
+The POSBillNo is the unique billID. The bill URL can be constructured using the same. When the bill view page is access using
+
+bill/view/<billID> 
+
+When page loads API call is made to fetch details of the company - /api/kot/getcompanyinfobill
+
+And then a another API call is made to fetch bill details where parameter is POSBillNo. The response is similar to the request to postbill:
+
+{
+    "Cart": {
+        "UserCode": 1,
+        "Table": "1",
+        "SubTable": "A",
+        "Outlet": 1,
+        "OutletName": "BAR & RESTAURANT",
+        "Waiter": 1,
+        "WaiterName": "Waiter",
+        "Pax": 1,
+        "Food": [
+            {
+                "Id": 10,
+                "id": 0,
+                "Food": "EGG CHEESE",
+                "code": "0",
+                "Price": 50,
+                "Qty": 1,
+                "Comment": "",
+                "Category": 0,
+                "OrigQty": 1
+            },
+            {
+                "Id": 402,
+                "id": 0,
+                "Food": "BUFFET BREAKFAST",
+                "code": "0",
+                "Price": 238,
+                "Qty": 1,
+                "Comment": "",
+                "Category": 0,
+                "OrigQty": 1
+            }
+        ],
+        "Total": 288,
+        "TotQty": 2,
+        "Branch": "DEROY",
+        "Type": "K",
+        "NCCode": 0,
+        "NCRemarks": "",
+        "Discount": 0,
+        "DiscountType": "",
+        "DiscountRemarks": "",
+        "VRemarks": "0",
+        "Mode": "ADD",
+        "SubBillType": "C",
+        "Plan": "",
+        "GuestName": "Kasi",
+        "GuestCode": "",
+        "CheckInNo": "0",
+        "KotMobileNo": "8072169648"
+    },
+    "Tax": {
+        "TotalAmount": 288,
+        "TotalQty": 2,
+        "CGSTPer": 2.5,
+        "CGSTAmt": 7.2,
+        "SGSTPer": 2.5,
+        "SGSTAmt": 7.2,
+        "ServiceChargePer": 0,
+        "ServiceCharge": 0,
+        "GrandTotal": 302,
+        "DiscountPer": 0,
+        "Discount": 0,
+        "DiscountRemarks": null,
+        "RoundOff": -0.4
+    },
+    "BillingType": "ADD",
+    "SubBillingType": "C",
+    "paymentresponse": {
+        "success": true,
+        "code": "COMPLETED",
+        "message": "COMPLETED",
+        "data": {
+            "transactionId": "OM2511121604218032636448",
+            "amount": 302,
+            "merchantId": "",
+            "providerReferenceId": "OMO2511121604218032636933",
+            "qrString": ""
+        }
+    }
+}
+
+Analysze current code and build a plan.

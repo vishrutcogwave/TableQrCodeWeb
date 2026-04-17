@@ -1,0 +1,51 @@
+{
+    "UserCode": 0,
+    "Table": "C4",
+    "SubTable": "",
+    "Outlet": 1,
+    "OutletName": "Restaurant",
+    "Waiter": 1,
+    "WaiterName": "",
+    "Pax": 0,
+    "Food": [
+      {
+        "Id": 0,
+        "id": 10, 
+        "Food": "PAPER DOSA",
+        "code": "10",
+        "Price": 140,
+        "Qty": 1,
+        "Comment": "Less oil",
+        "Category": 1,
+        "OrigQty": 0
+      },
+      {
+        "Id": 0,
+        "id": 20, 
+        "Food": "CHOW CHOW BATH",
+        "code": "20",
+        "Price": 110,
+        "Qty": 1,
+        "Comment": "Less oil",
+        "Category": 1,
+        "OrigQty": 0
+      }
+    ],
+    "Total": 250,
+    "TotQty": 2,
+    "Branch": "",
+    "Type": "",
+    "NCCode": 0,
+    "NCRemarks": "",
+    "Discount": 0,
+    "DiscountType": "",
+    "DiscountRemarks": "",
+    "VRemarks": "",
+    "Mode": "",
+    "SubBillType": "",
+    "Plan": "",
+    "GuestName": "Sunil",
+    "GuestCode": "",
+    "CheckInNo": "",
+    "KotMobileNo": "9845511111"
+  }

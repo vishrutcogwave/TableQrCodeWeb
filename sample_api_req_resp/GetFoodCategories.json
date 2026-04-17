@@ -1,0 +1,197 @@
+[
+    {
+        "CategoryId": 1,
+        "Category": "BREAK FAST",
+        "thumb": null
+    },
+    {
+        "CategoryId": 2,
+        "Category": "CONTINENTAL BREAK FAST",
+        "thumb": null
+    },
+    {
+        "CategoryId": 3,
+        "Category": "THAALI",
+        "thumb": null
+    },
+    {
+        "CategoryId": 4,
+        "Category": "EVENING SNACKS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 5,
+        "Category": "CHATS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 6,
+        "Category": "PAV BHAJI",
+        "thumb": null
+    },
+    {
+        "CategoryId": 7,
+        "Category": "SOOUP",
+        "thumb": null
+    },
+    {
+        "CategoryId": 8,
+        "Category": "SALAD",
+        "thumb": null
+    },
+    {
+        "CategoryId": 9,
+        "Category": "THAI",
+        "thumb": null
+    },
+    {
+        "CategoryId": 10,
+        "Category": "TANDOOR POTS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 11,
+        "Category": "STARTERS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 12,
+        "Category": "NORTH INDIAN MAIN COURSE",
+        "thumb": null
+    },
+    {
+        "CategoryId": 13,
+        "Category": "DAL ITEMS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 14,
+        "Category": "TANDOOR",
+        "thumb": null
+    },
+    {
+        "CategoryId": 15,
+        "Category": "CHINESE RICE AND NOODLES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 16,
+        "Category": "CHOPSUET",
+        "thumb": null
+    },
+    {
+        "CategoryId": 17,
+        "Category": "NORTH INDIA RICE AND PULAO",
+        "thumb": null
+    },
+    {
+        "CategoryId": 18,
+        "Category": "BIRYANI",
+        "thumb": null
+    },
+    {
+        "CategoryId": 19,
+        "Category": "JAIN FOOD",
+        "thumb": null
+    },
+    {
+        "CategoryId": 20,
+        "Category": "HOT BEVERGES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 21,
+        "Category": "EXOTIC TEAS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 22,
+        "Category": "ORGANIC HERBAL TEA",
+        "thumb": null
+    },
+    {
+        "CategoryId": 23,
+        "Category": "COLD BEVERAGES ",
+        "thumb": null
+    },
+    {
+        "CategoryId": 24,
+        "Category": "THE JUICE BAR",
+        "thumb": null
+    },
+    {
+        "CategoryId": 25,
+        "Category": "ICE CREAM MILK SHAKES ",
+        "thumb": null
+    },
+    {
+        "CategoryId": 26,
+        "Category": "LASSI",
+        "thumb": null
+    },
+    {
+        "CategoryId": 27,
+        "Category": "SMOOTHIES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 28,
+        "Category": "FRESH FRUIT MILK SHAKES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 29,
+        "Category": "SPECIAL MOCKTAIL",
+        "thumb": null
+    },
+    {
+        "CategoryId": 30,
+        "Category": "MOCKTAILS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 31,
+        "Category": "FALOODA",
+        "thumb": null
+    },
+    {
+        "CategoryId": 32,
+        "Category": "EVERY DAY IS A SUNDAE",
+        "thumb": null
+    },
+    {
+        "CategoryId": 33,
+        "Category": "DESSERTS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 34,
+        "Category": "FRUIT SALAD SUNDAES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 35,
+        "Category": "DRY FRUIT SUNDAES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 36,
+        "Category": "TRIPLE SUNDAES",
+        "thumb": null
+    },
+    {
+        "CategoryId": 37,
+        "Category": "SOMETHING SPECIAL",
+        "thumb": null
+    },
+    {
+        "CategoryId": 38,
+        "Category": "ICE CREAM FLOATS",
+        "thumb": null
+    },
+    {
+        "CategoryId": 39,
+        "Category": "SCOOPS & CONES",
+        "thumb": null
+    }
+]
