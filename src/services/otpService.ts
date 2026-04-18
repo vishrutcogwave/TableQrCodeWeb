@@ -36,7 +36,7 @@ export class OTPService {
       };
     }
 
-    const url = `${API_CONFIG.baseUrl}/api/kot/otpNo?MobileNo=${encodeURIComponent(mobileNumber)}`;
+    const url = `${API_CONFIG.baseUrl}/api/kot/GetOtpNo?MobileNo=${encodeURIComponent(mobileNumber)}`;
     const res = await fetch(url);
 
     if (!res.ok) {

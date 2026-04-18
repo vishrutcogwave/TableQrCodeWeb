@@ -6,7 +6,7 @@ const TEMPLATE_LANGUAGE = 'en_us';
 
 export async function POST(request: NextRequest) {
   try {
-    const apiKey = process.env.TRYOWBOT_API_KEY;
+    const apiKey = "PJzKzq765ChHB6xUZcQugCDpbtDjNIHpm3hsWSZ413eef1c0";
     
     if (!apiKey) {
       return NextResponse.json(
