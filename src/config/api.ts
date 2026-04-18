@@ -23,9 +23,35 @@
 // export const DEFAULT_IMAGE = '/images/food/food-default.png';
 
 
+
+// export const API_CONFIG = {
+//   baseUrl: process.env.NEXT_PUBLIC_HOTEL360_API_BASE_URL || 'https://posonlinederoyale.cogwave.in',
+//   endpoints: {
+//     categories: '/api/kot/getfoodcategories',
+//     items: '/api/kot/getfoodsimage',
+//     submitOrder: '/api/kot/submitorder',
+//     getStewards: '/api/kot/getstewards',
+//     getOldCart: '/api/kot/getoldcart',
+//     getBranch: '/api/kot/getbranch',
+//     getMenuListByOlt: '/api/kot/GetMenuListByOlt',
+//     getOutletType: '/api/kot/getOutletType',
+//     pgCreatePayment: '/api/kot/PGCreatePayment',
+//     pgPaymentStatus: '/api/kot/PGPaymentStatus',
+//     pgGetPaymentStatus: '/api/kot/PGGetPaymentStatus',
+//     postBill: '/api/kot/postbill',
+//     submitOrderfastfoodbill: '/api/kot/submitOrderfastfoodbill',
+//     getRoomServiceDetails: '/api/kot/getroomsevicedetails',
+//     getCompanyInfoBill: '/api/kot/getcompanyinfobill',
+//     getBillNoByOrderId: '/api/kot/getbillnouseorderid'
+//   }
+// };
+
+// export const DEFAULT_IMAGE = '/images/food/food-default.png';
+
+
 export const API_CONFIG = {
   // baseUrl: "http://192.168.1.109:8080",
-    baseUrl: process.env.NEXT_PUBLIC_HOTEL360_API_BASE_URL || 'http://192.168.1.109:8080',
+    baseUrl:  'https://possystemwebapi.cogwave.in',
   // endpoints: {
   //   categories: '/api/kot/getfoodcategories',
   //   items: '/api/kot/getfoodsimage',
